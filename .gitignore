@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Claude AI files
+.claude/
+
+# Screenshot tools & images (not part of website)
+Screenshots/
+
+# Misc
+.DS_Store
+*.log

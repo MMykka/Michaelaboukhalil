@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { min-width: 0; }
+
+  body {
+    font-size: 1.25vw;
+    line-height: 130%;
+  }
+
+  @media (max-width: 768px) { body { font-size: 14px; } }
+
+  @media (max-width: 900px) {
+    body { overflow-x: hidden; }
+    h1, h2, h3 { overflow-wrap: break-word; word-break: break-word; }
+    p { overflow-wrap: break-word; }
+  }
+}
+
+/* ── Fluid typography (clamp can't be expressed in Tailwind) ── */
+.hero-heading {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: #f0f0f2;
+}
+.section-heading {
+  font-size: clamp(1.8rem, 3.5vw, 3.25rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  color: #f0f0f2;
+}
+.project-name {
+  font-size: clamp(3rem, 5.5vw, 5.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: #000;
+  margin-bottom: 0.6rem;
+}
+
+@media (max-width: 900px) {
+  .hero-heading   { font-size: clamp(2rem, 9vw, 4rem) !important; overflow-wrap: break-word; }
+  .section-heading { font-size: clamp(1.35rem, 5.5vw, 3.25rem) !important; overflow-wrap: break-word; }
+}
+
+/* ── Marquee ── */
+@keyframes marquee-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-outer { overflow: hidden; position: relative; }
+
+.marquee-outer::before,
+.marquee-outer::after {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 80px;
+  z-index: 2;
+  pointer-events: none;
+}
+.marquee-outer::before {
+  left: 0;
+  background: linear-gradient(to right, #111113 40%, transparent);
+}
+.marquee-outer::after {
+  right: 0;
+  background: linear-gradient(to left, #111113 40%, transparent);
+}
+.marquee-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: marquee-scroll 28s linear infinite;
+}
