@@ -55,7 +55,7 @@ export default function Home() {
                 About me
               </div>
               <h2 data-animate="fade-up" data-delay="100" className="section-heading mb-6 max-w-[520px]">
-                I turn complex workflows into clean, powerful automations.
+                I replace manual work with systems built to run themselves.
               </h2>
               <p data-animate="fade-up" data-delay="200" className="text-subtle text-[0.9rem] leading-[1.65] mb-8 max-w-[480px]">
                 I&apos;m Michael Abou Khalil, an automation and AI specialist focused on GoHighLevel, n8n, and Zapier — building systems that eliminate manual work, accelerate growth, and run 24/7 without supervision. I also use Claude Code to integrate AI-powered agents directly into the workflows I deliver.
