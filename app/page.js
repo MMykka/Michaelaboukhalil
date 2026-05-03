@@ -285,7 +285,7 @@ export default function Home() {
                 <div className="mt-6 text-center px-2">
                   <h3 className="text-[1rem] font-semibold text-body mb-1">Custom Automation Development</h3>
                   <p className="text-[0.75rem] text-muted mb-4">Python Developer</p>
-                  <p className="text-[0.78rem] text-subtle leading-[1.6]">I write Python scripts to automate repetitive tasks, process data, and connect systems that don&apos;t have native integrations. From web scraping to scheduled data pipelines, I build scripts that run reliably without supervision.</p>
+                  <p className="text-[0.78rem] text-subtle leading-[1.6]">Python scripts for automating tasks, processing data, and connecting systems without native integrations — built to run reliably without supervision.</p>
                 </div>
               </div>
 
@@ -296,7 +296,7 @@ export default function Home() {
                 <div className="mt-6 text-center px-2">
                   <h3 className="text-[1rem] font-semibold text-body mb-1">GHL, n8n &amp; Zapier</h3>
                   <p className="text-[0.75rem] text-muted mb-4">Workflow Architect</p>
-                  <p className="text-[0.78rem] text-subtle leading-[1.6]">I build across all three platforms depending on what the job needs. GoHighLevel for CRM and sales automation, n8n for complex multi-branch workflows, and Zapier for fast reliable app-to-app connections.</p>
+                  <p className="text-[0.78rem] text-subtle leading-[1.6]">GoHighLevel for CRM and sales automation, n8n for complex multi-branch workflows, and Zapier for fast app-to-app connections — the right tool for each job.</p>
                 </div>
               </div>
 
@@ -307,7 +307,7 @@ export default function Home() {
                 <div className="mt-6 text-center px-2">
                   <h3 className="text-[1rem] font-semibold text-body mb-1">Claude Code &amp; AI</h3>
                   <p className="text-[0.75rem] text-muted mb-4">AI-Powered Development</p>
-                  <p className="text-[0.78rem] text-subtle leading-[1.6]">I use Claude Code to bring AI into the automations I build — creating agents that reason, decide, and act beyond simple if-then logic. It&apos;s how I ship smarter workflows that adapt instead of just execute.</p>
+                  <p className="text-[0.78rem] text-subtle leading-[1.6]">I use Claude Code to bring AI into the automations I build — agents that reason and decide beyond simple if-then logic, delivering workflows that adapt instead of just execute.</p>
                 </div>
               </div>
 
