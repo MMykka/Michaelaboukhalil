@@ -22,12 +22,12 @@ export default function Home() {
           <h1 className="hero-heading mb-8" data-animate="fade-up">
             Automation &amp; AI specialist<br className="mobile:hidden" /> who builds while you sleep.
           </h1>
-          <button data-animate="fade-up" data-delay="200" className="inline-flex items-center gap-[10px] bg-surface border border-divider rounded-full px-[18px] py-2 text-body text-[0.875rem] cursor-pointer hover:border-accent transition-colors">
+          <a href="#contact" data-animate="fade-up" data-delay="200" className="inline-flex items-center gap-[10px] bg-surface border border-divider rounded-full px-[18px] py-2 text-body text-[0.875rem] hover:border-accent transition-colors no-underline">
             <div className="w-9 h-5 bg-accent rounded-full relative shrink-0">
               <div className="w-[14px] h-[14px] bg-body rounded-full absolute right-[3px] top-[3px]" />
             </div>
-            Let&apos;s work together
-          </button>
+            Open to work
+          </a>
         </div>
       </section>
 
@@ -589,16 +589,16 @@ export default function Home() {
       <section id="contact" className="px-8 pt-16 pb-24">
         <div className="max-w-container mx-auto">
           <div data-animate="fade-up" className="bg-[#161618] border border-divider rounded-[20px] p-16 text-center mobile:p-10">
-            <h2 className="section-heading mb-5">Ready to automate your business?</h2>
+            <h2 className="section-heading mb-5">Open to new opportunities.</h2>
             <p className="text-subtle text-[0.9rem] leading-[1.65] max-w-[480px] mx-auto mb-8">
-              Book a free 30-minute discovery call. We&apos;ll map your workflows, find what&apos;s costing you time, and I&apos;ll show you exactly what can be automated.
+              I&apos;m actively looking for a role where I can bring automation and AI expertise to a great team. If that sounds like a fit, I&apos;d love to connect.
             </p>
-            <button className="inline-flex items-center gap-2 bg-body text-page text-[0.9rem] font-semibold px-6 py-3 rounded-full hover:bg-white transition-colors cursor-pointer border-none whitespace-nowrap leading-none">
-              Book a free discovery call
+            <a href="mailto:michaelaboukhal@gmail.com" className="inline-flex items-center gap-2 bg-body text-page text-[0.9rem] font-semibold px-6 py-3 rounded-full hover:bg-white transition-colors no-underline whitespace-nowrap leading-none">
+              Send me an email
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-            </button>
+            </a>
           </div>
         </div>
       </section>

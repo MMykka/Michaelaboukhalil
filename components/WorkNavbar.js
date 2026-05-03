@@ -16,8 +16,8 @@ export default function WorkNavbar() {
           <Link href="/" className="text-[0.82rem] text-[#666] hover:text-black transition-colors no-underline">Contact</Link>
         </div>
 
-        <a href="#" className="inline-flex items-center gap-2 bg-black text-white text-[0.78rem] font-semibold py-2 px-[18px] rounded-full hover:bg-[#222] transition-colors no-underline">
-          Hire me
+        <a href="mailto:michaelaboukhal@gmail.com" className="inline-flex items-center gap-2 bg-black text-white text-[0.78rem] font-semibold py-2 px-[18px] rounded-full hover:bg-[#222] transition-colors no-underline">
+          Get in touch
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
             <path d="M2 6h8M7 3l3 3-3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
