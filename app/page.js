@@ -282,23 +282,11 @@ export default function Home() {
                 <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider flex items-center justify-center" style={{background:'#13131a'}}>
                   <div className="absolute inset-0" style={{backgroundImage:'radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px)',backgroundSize:'16px 16px'}} />
                   <div className="absolute inset-0" style={{background:'radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, #13131a 100%)'}} />
-                  <svg width="90" height="90" viewBox="0 0 100 100" fill="none" className="relative z-10">
-                    <defs>
-                      <radialGradient id="pyBlueGlow" cx="42%" cy="38%" r="55%">
-                        <stop offset="0%" stopColor="#4B8BBE" stopOpacity="0.2"/>
-                        <stop offset="100%" stopColor="#4B8BBE" stopOpacity="0"/>
-                      </radialGradient>
-                      <radialGradient id="pyYellowGlow" cx="58%" cy="62%" r="55%">
-                        <stop offset="0%" stopColor="#FFD43B" stopOpacity="0.15"/>
-                        <stop offset="100%" stopColor="#FFD43B" stopOpacity="0"/>
-                      </radialGradient>
-                    </defs>
-                    <circle cx="42" cy="38" r="40" fill="url(#pyBlueGlow)"/>
-                    <circle cx="58" cy="62" r="40" fill="url(#pyYellowGlow)"/>
-                    <path d="M52 8 C34 8 20 16 20 28 L20 46 L33 46 L33 41 C33 38 36 36 40 36 L60 36 C68 36 78 29 78 20 L78 16 C78 10 68 8 60 8 Z" fill="#4B8BBE"/>
-                    <path d="M48 92 C66 92 80 84 80 72 L80 54 L67 54 L67 59 C67 62 64 64 60 64 L40 64 C32 64 22 71 22 80 L22 84 C22 90 32 92 40 92 Z" fill="#FFD43B"/>
-                    <circle cx="66" cy="18" r="3.5" fill="#0d0d1a"/>
-                    <circle cx="34" cy="82" r="3.5" fill="#0d0d1a"/>
+                  <svg width="92" height="92" viewBox="0 0 100 100" fill="none" className="relative z-10">
+                    <path d="M49 6 C30 6 12 17 12 32 L12 48 C12 58 20 65 30 65 L42 65 L42 51 C42 44 52 41 58 41 L67 41 C80 41 87 31 87 20 L87 16 C87 10 77 6 64 6 Z" fill="#3776AB"/>
+                    <path d="M51 94 C70 94 88 83 88 68 L88 52 C88 42 80 35 70 35 L58 35 L58 49 C58 56 48 59 42 59 L33 59 C20 59 13 69 13 80 L13 84 C13 90 23 94 36 94 Z" fill="#FFC331"/>
+                    <circle cx="70" cy="20" r="5" fill="white"/>
+                    <circle cx="30" cy="80" r="5" fill="white"/>
                   </svg>
                 </div>
                 <div className="mt-6 text-center px-2">
@@ -312,23 +300,15 @@ export default function Home() {
                 <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider flex items-center justify-center" style={{background:'#13131a'}}>
                   <div className="absolute inset-0" style={{backgroundImage:'radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px)',backgroundSize:'16px 16px'}} />
                   <div className="absolute inset-0" style={{background:'radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, #13131a 100%)'}} />
-                  <svg width="148" height="80" viewBox="0 0 148 80" fill="none" className="relative z-10">
-                    <defs>
-                      <radialGradient id="webhookGlow" cx="50%" cy="50%" r="50%">
-                        <stop offset="0%" stopColor="#FF6933" stopOpacity="0.1"/>
-                        <stop offset="100%" stopColor="#FF6933" stopOpacity="0"/>
-                      </radialGradient>
-                    </defs>
-                    <rect x="0" y="0" width="148" height="80" fill="url(#webhookGlow)"/>
-                    <rect x="4" y="25" width="36" height="30" rx="7" fill="#FF6933" fillOpacity="0.12" stroke="#FF6933" strokeWidth="1.3"/>
-                    <path d="M21 35 L16 46 L22 46 L17 57 L29 44 L23 44 L28 35 Z" fill="#FF6933" fillOpacity="0.85"/>
-                    <path d="M40 40 L52 40 M49 37 L52 40 L49 43" stroke="#FF6933" strokeWidth="1.1" strokeLinecap="round" strokeLinejoin="round" opacity="0.5"/>
-                    <rect x="52" y="25" width="44" height="30" rx="7" fill="none" stroke="#FF6933" strokeWidth="1.3" opacity="0.7"/>
-                    <circle cx="74" cy="40" r="8" stroke="#FF6933" strokeWidth="1.2" opacity="0.7"/>
-                    <circle cx="74" cy="40" r="3" fill="#FF6933" opacity="0.5"/>
-                    <path d="M96 40 L108 40 M105 37 L108 40 L105 43" stroke="#FF6933" strokeWidth="1.1" strokeLinecap="round" strokeLinejoin="round" opacity="0.5"/>
-                    <rect x="108" y="25" width="36" height="30" rx="7" fill="none" stroke="#FF6933" strokeWidth="1.3" opacity="0.4"/>
-                    <path d="M117 40 L123 46 L137 33" stroke="#FF6933" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" opacity="0.6"/>
+                  <svg width="188" height="178" viewBox="0 0 188 178" fill="none" className="relative z-10">
+                    <rect x="4" y="4" width="162" height="158" rx="28" fill="#1E1E24" stroke="#3C3C44" strokeWidth="2"/>
+                    <rect x="166" y="75" width="18" height="22" rx="9" fill="#2E2E36" stroke="#3C3C44" strokeWidth="1.5"/>
+                    <path d="M83 118 Q60 96 46 76" stroke="#E84B8A" strokeWidth="3.2" fill="none" strokeLinecap="round"/>
+                    <path d="M83 118 Q106 96 120 76" stroke="#E84B8A" strokeWidth="3.2" fill="none" strokeLinecap="round"/>
+                    <path d="M46 76 Q83 56 120 76" stroke="#E84B8A" strokeWidth="3.2" fill="none" strokeLinecap="round"/>
+                    <circle cx="46" cy="72" r="12" fill="#E84B8A"/>
+                    <circle cx="120" cy="72" r="12" fill="#E84B8A"/>
+                    <circle cx="83" cy="122" r="12" fill="#E84B8A"/>
                   </svg>
                 </div>
                 <div className="mt-6 text-center px-2">
@@ -342,19 +322,16 @@ export default function Home() {
                 <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider flex items-center justify-center" style={{background:'#13131a'}}>
                   <div className="absolute inset-0" style={{backgroundImage:'radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px)',backgroundSize:'16px 16px'}} />
                   <div className="absolute inset-0" style={{background:'radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, #13131a 100%)'}} />
-                  <svg width="88" height="88" viewBox="0 0 100 100" fill="none" className="relative z-10">
-                    <defs>
-                      <radialGradient id="claudeGlow" cx="50%" cy="50%" r="50%">
-                        <stop offset="0%" stopColor="#D97757" stopOpacity="0.25"/>
-                        <stop offset="100%" stopColor="#D97757" stopOpacity="0"/>
-                      </radialGradient>
-                    </defs>
-                    <circle cx="50" cy="50" r="45" fill="url(#claudeGlow)"/>
-                    <rect x="17" y="62" width="10" height="18" rx="5" fill="#D97757" opacity="0.8"/>
-                    <rect x="31" y="48" width="10" height="32" rx="5" fill="#D97757" opacity="0.88"/>
-                    <rect x="45" y="34" width="10" height="46" rx="5" fill="#D97757" opacity="0.95"/>
-                    <rect x="59" y="48" width="10" height="32" rx="5" fill="#D97757" opacity="0.88"/>
-                    <rect x="73" y="62" width="10" height="18" rx="5" fill="#D97757" opacity="0.8"/>
+                  <svg width="192" height="160" viewBox="0 0 198 162" fill="none" className="relative z-10">
+                    <rect x="36" y="0" width="126" height="36" fill="#C87941"/>
+                    <rect x="18" y="36" width="162" height="72" fill="#C87941"/>
+                    <rect x="54" y="36" width="18" height="36" fill="#13131a"/>
+                    <rect x="126" y="36" width="18" height="36" fill="#13131a"/>
+                    <rect x="0" y="72" width="18" height="36" fill="#C87941"/>
+                    <rect x="180" y="72" width="18" height="36" fill="#C87941"/>
+                    <rect x="18" y="108" width="162" height="18" fill="#C87941"/>
+                    <rect x="54" y="126" width="36" height="36" fill="#C87941"/>
+                    <rect x="126" y="126" width="36" height="36" fill="#C87941"/>
                   </svg>
                 </div>
                 <div className="mt-6 text-center px-2">
