@@ -279,15 +279,8 @@ export default function Home() {
             <div className="grid grid-cols-3 gap-8 mobile:grid-cols-1 mobile:gap-12">
 
               <div data-animate="fade-up" data-delay="100" className="group flex flex-col items-center">
-                <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider flex items-center justify-center" style={{background:'#13131a'}}>
-                  <div className="absolute inset-0" style={{backgroundImage:'radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px)',backgroundSize:'16px 16px'}} />
-                  <div className="absolute inset-0" style={{background:'radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, #13131a 100%)'}} />
-                  <svg width="92" height="92" viewBox="0 0 100 100" fill="none" className="relative z-10">
-                    <path d="M49 6 C30 6 12 17 12 32 L12 48 C12 58 20 65 30 65 L42 65 L42 51 C42 44 52 41 58 41 L67 41 C80 41 87 31 87 20 L87 16 C87 10 77 6 64 6 Z" fill="#3776AB"/>
-                    <path d="M51 94 C70 94 88 83 88 68 L88 52 C88 42 80 35 70 35 L58 35 L58 49 C58 56 48 59 42 59 L33 59 C20 59 13 69 13 80 L13 84 C13 90 23 94 36 94 Z" fill="#FFC331"/>
-                    <circle cx="70" cy="20" r="5" fill="white"/>
-                    <circle cx="30" cy="80" r="5" fill="white"/>
-                  </svg>
+                <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider">
+                  <img src="/python1.png" alt="Python scripting" className="w-full h-full object-cover" style={{backgroundColor:'#171717'}}/>
                 </div>
                 <div className="mt-6 text-center px-2">
                   <h3 className="text-[1rem] font-semibold text-body mb-1">Custom Automation Development</h3>
@@ -297,19 +290,8 @@ export default function Home() {
               </div>
 
               <div data-animate="fade-up" data-delay="250" className="group flex flex-col items-center">
-                <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider flex items-center justify-center" style={{background:'#13131a'}}>
-                  <div className="absolute inset-0" style={{backgroundImage:'radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px)',backgroundSize:'16px 16px'}} />
-                  <div className="absolute inset-0" style={{background:'radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, #13131a 100%)'}} />
-                  <svg width="188" height="178" viewBox="0 0 188 178" fill="none" className="relative z-10">
-                    <rect x="4" y="4" width="162" height="158" rx="28" fill="#1E1E24" stroke="#3C3C44" strokeWidth="2"/>
-                    <rect x="166" y="75" width="18" height="22" rx="9" fill="#2E2E36" stroke="#3C3C44" strokeWidth="1.5"/>
-                    <path d="M83 118 Q60 96 46 76" stroke="#E84B8A" strokeWidth="3.2" fill="none" strokeLinecap="round"/>
-                    <path d="M83 118 Q106 96 120 76" stroke="#E84B8A" strokeWidth="3.2" fill="none" strokeLinecap="round"/>
-                    <path d="M46 76 Q83 56 120 76" stroke="#E84B8A" strokeWidth="3.2" fill="none" strokeLinecap="round"/>
-                    <circle cx="46" cy="72" r="12" fill="#E84B8A"/>
-                    <circle cx="120" cy="72" r="12" fill="#E84B8A"/>
-                    <circle cx="83" cy="122" r="12" fill="#E84B8A"/>
-                  </svg>
+                <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider" style={{backgroundColor:'#171717'}}>
+                  <img src="/webhook3.png" alt="GHL n8n Zapier" className="w-full h-full object-cover" />
                 </div>
                 <div className="mt-6 text-center px-2">
                   <h3 className="text-[1rem] font-semibold text-body mb-1">GHL, n8n &amp; Zapier</h3>
@@ -319,20 +301,8 @@ export default function Home() {
               </div>
 
               <div data-animate="fade-up" data-delay="400" className="group flex flex-col items-center">
-                <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider flex items-center justify-center" style={{background:'#13131a'}}>
-                  <div className="absolute inset-0" style={{backgroundImage:'radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px)',backgroundSize:'16px 16px'}} />
-                  <div className="absolute inset-0" style={{background:'radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, #13131a 100%)'}} />
-                  <svg width="192" height="160" viewBox="0 0 198 162" fill="none" className="relative z-10">
-                    <rect x="36" y="0" width="126" height="36" fill="#C87941"/>
-                    <rect x="18" y="36" width="162" height="72" fill="#C87941"/>
-                    <rect x="54" y="36" width="18" height="36" fill="#13131a"/>
-                    <rect x="126" y="36" width="18" height="36" fill="#13131a"/>
-                    <rect x="0" y="72" width="18" height="36" fill="#C87941"/>
-                    <rect x="180" y="72" width="18" height="36" fill="#C87941"/>
-                    <rect x="18" y="108" width="162" height="18" fill="#C87941"/>
-                    <rect x="54" y="126" width="36" height="36" fill="#C87941"/>
-                    <rect x="126" y="126" width="36" height="36" fill="#C87941"/>
-                  </svg>
+                <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider flex items-center justify-center" style={{backgroundColor:'#171717'}}>
+                  <img src="claude.jpeg" alt="Claude Code AI" className="w-3/5 h-3/5 object-contain" />
                 </div>
                 <div className="mt-6 text-center px-2">
                   <h3 className="text-[1rem] font-semibold text-body mb-1">Claude Code &amp; AI</h3>
