@@ -5,11 +5,7 @@ export default function WorkNavbar() {
     <nav className="bg-white border-b border-light-border sticky top-0 z-[100] h-[60px] flex items-center">
       <div className="max-w-container-lg mx-auto w-full px-10 flex items-center justify-between">
 
-        <Link href="/" className="text-[0.82rem] font-bold tracking-[0.12em] uppercase text-black no-underline">
-          MAK
-        </Link>
-
-        <div className="flex items-center gap-8 mobile:hidden">
+<div className="flex items-center gap-8 mobile:hidden">
           <Link href="/" className="text-[0.82rem] text-[#666] hover:text-black transition-colors no-underline">Work</Link>
           <Link href="/" className="text-[0.82rem] text-[#666] hover:text-black transition-colors no-underline">About</Link>
           <Link href="/" className="text-[0.82rem] text-[#666] hover:text-black transition-colors no-underline">Services</Link>

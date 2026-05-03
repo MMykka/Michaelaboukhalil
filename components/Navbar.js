@@ -5,11 +5,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-[100] bg-page/90 backdrop-blur-md border-b border-divider">
       <div className="max-w-container mx-auto px-8 h-[60px] flex items-center justify-between">
 
-        <Link href="/" className="text-[0.85rem] font-bold tracking-[0.12em] uppercase text-body no-underline">
-          MAK
-        </Link>
-
-        <div className="flex items-center gap-8 mobile:hidden">
+<div className="flex items-center gap-8 mobile:hidden">
           <a href="#work"    className="text-subtle text-sm hover:text-body transition-colors no-underline">Work</a>
           <a href="#about"   className="text-subtle text-sm hover:text-body transition-colors no-underline">About</a>
           <a href="#skills"  className="text-subtle text-sm hover:text-body transition-colors no-underline">Skills</a>
