@@ -1,5 +1,6 @@
 import { DM_Sans } from 'next/font/google'
 import './globals.css'
+import ScrollReveal from '@/components/ScrollReveal'
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${dmSans.variable} font-sans bg-page text-body antialiased`}>
+        <ScrollReveal />
         {children}
       </body>
     </html>

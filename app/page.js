@@ -19,10 +19,10 @@ export default function Home() {
           style={{ background: 'radial-gradient(ellipse 80% 60% at 50% 0%, rgba(80,80,100,0.10) 0%, transparent 70%)' }}
         />
         <div className="max-w-container mx-auto w-full relative">
-          <h1 className="hero-heading mb-8">
+          <h1 className="hero-heading mb-8" data-animate="fade-up">
             Automation &amp; AI specialist<br className="mobile:hidden" /> who builds while you sleep.
           </h1>
-          <button className="inline-flex items-center gap-[10px] bg-surface border border-divider rounded-full px-[18px] py-2 text-body text-[0.875rem] cursor-pointer hover:border-accent transition-colors">
+          <button data-animate="fade-up" data-delay="200" className="inline-flex items-center gap-[10px] bg-surface border border-divider rounded-full px-[18px] py-2 text-body text-[0.875rem] cursor-pointer hover:border-accent transition-colors">
             <div className="w-9 h-5 bg-accent rounded-full relative shrink-0">
               <div className="w-[14px] h-[14px] bg-body rounded-full absolute right-[3px] top-[3px]" />
             </div>
@@ -40,17 +40,17 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-16 items-center mobile:grid-cols-1 mobile:gap-8">
 
             <div>
-              <div className="inline-flex items-center gap-2 text-xs font-medium text-subtle tracking-[0.02em] mb-6">
+              <div data-animate="fade-up" className="inline-flex items-center gap-2 text-xs font-medium text-subtle tracking-[0.02em] mb-6">
                 <span className="w-1.5 h-1.5 bg-subtle rounded-full shrink-0" />
                 About me
               </div>
-              <h2 className="section-heading mb-6 max-w-[520px]">
+              <h2 data-animate="fade-up" data-delay="100" className="section-heading mb-6 max-w-[520px]">
                 I turn complex workflows into clean, powerful automations.
               </h2>
-              <p className="text-subtle text-[0.9rem] leading-[1.65] mb-8 max-w-[480px]">
+              <p data-animate="fade-up" data-delay="200" className="text-subtle text-[0.9rem] leading-[1.65] mb-8 max-w-[480px]">
                 My name is Michael Abou Khalil. I&apos;m an automation and AI specialist focused on GoHighLevel, n8n, and Zapier — building systems that eliminate manual work, accelerate growth, and run 24/7 without supervision. I&apos;m also learning Claude Code to bring AI-powered agents into the workflows I build.
               </p>
-              <a href="#work" className="inline-flex items-center gap-2 bg-body text-page text-[0.875rem] font-semibold px-5 py-[10px] rounded-full hover:bg-white transition-colors no-underline whitespace-nowrap leading-none">
+              <a data-animate="fade-up" data-delay="300" href="#work" className="inline-flex items-center gap-2 bg-body text-page text-[0.875rem] font-semibold px-5 py-[10px] rounded-full hover:bg-white transition-colors no-underline whitespace-nowrap leading-none">
                 See my work
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                   <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -58,7 +58,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="rounded-2xl overflow-hidden bg-surface">
+            <div data-animate="fade-left" data-delay="150" className="rounded-2xl overflow-hidden bg-surface">
               <img src="/michael.png" alt="Michael Abou Khalil" className="w-full h-auto block" />
             </div>
 
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="h-px bg-divider mb-16" />
         <div className="max-w-container mx-auto">
 
-          <div className="flex items-start gap-8 mb-12 mobile:flex-col mobile:gap-2">
+          <div data-animate="fade-up" className="flex items-start gap-8 mb-12 mobile:flex-col mobile:gap-2">
             <div className="inline-flex items-center gap-2 text-xs font-medium text-subtle tracking-[0.02em] whitespace-nowrap pt-[0.4rem]">
               <span className="w-1.5 h-1.5 bg-subtle rounded-full shrink-0" />
               My Work
@@ -82,7 +82,7 @@ export default function Home() {
           <div className="grid grid-cols-3 gap-5 mobile:grid-cols-2 mobile:gap-4 xs:grid-cols-1">
 
             {/* ── Card 1: Lead Capture ── */}
-            <Link href="/work/lead-capture" className="bg-surface border border-divider rounded-xl overflow-hidden hover:border-[#3a3a55] transition-colors no-underline text-inherit block group">
+            <Link data-animate="fade-up" data-delay="100" href="/work/lead-capture" className="bg-surface border border-divider rounded-xl overflow-hidden hover:border-[#3a3a55] transition-colors no-underline text-inherit block group">
               <div className="aspect-[4/3] relative overflow-hidden" style={{background:'#13131a'}}>
                 {/* Dot grid */}
                 <div className="absolute inset-0" style={{backgroundImage:'radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px)',backgroundSize:'20px 20px'}} />
@@ -142,7 +142,7 @@ export default function Home() {
             </Link>
 
             {/* ── Card 2: Event SaaS Platform ── */}
-            <Link href="/work/client-onboarding" className="bg-surface border border-divider rounded-xl overflow-hidden hover:border-[#3a3a55] transition-colors no-underline text-inherit block group">
+            <Link data-animate="fade-up" data-delay="200" href="/work/client-onboarding" className="bg-surface border border-divider rounded-xl overflow-hidden hover:border-[#3a3a55] transition-colors no-underline text-inherit block group">
               <div className="aspect-[4/3] relative overflow-hidden" style={{background:'#13131a'}}>
                 {/* Grid pattern */}
                 <div className="absolute inset-0" style={{backgroundImage:'linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px)',backgroundSize:'26px 26px'}} />
@@ -182,7 +182,7 @@ export default function Home() {
             </Link>
 
             {/* ── Card 3: Multi-Platform Data Sync ── */}
-            <Link href="/work/data-sync" className="bg-surface border border-divider rounded-xl overflow-hidden hover:border-[#3a3a55] transition-colors no-underline text-inherit block group">
+            <Link data-animate="fade-up" data-delay="300" href="/work/data-sync" className="bg-surface border border-divider rounded-xl overflow-hidden hover:border-[#3a3a55] transition-colors no-underline text-inherit block group">
               <div className="aspect-[4/3] relative overflow-hidden" style={{background:'#13131a'}}>
                 {/* Dot grid */}
                 <div className="absolute inset-0" style={{backgroundImage:'radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px)',backgroundSize:'20px 20px'}} />
@@ -259,7 +259,7 @@ export default function Home() {
         <div className="h-px bg-divider mb-16" />
         <div className="max-w-container mx-auto">
 
-          <div className="flex items-start gap-8 mb-8 mobile:flex-col mobile:gap-2">
+          <div data-animate="fade-up" className="flex items-start gap-8 mb-8 mobile:flex-col mobile:gap-2">
             <div className="inline-flex items-center gap-2 text-xs font-medium text-subtle tracking-[0.02em] whitespace-nowrap pt-[0.4rem]">
               <span className="w-1.5 h-1.5 bg-subtle rounded-full shrink-0" />
               My expertise
@@ -278,7 +278,7 @@ export default function Home() {
 
             <div className="grid grid-cols-3 gap-8 mobile:grid-cols-1 mobile:gap-12">
 
-              <div className="group flex flex-col items-center">
+              <div data-animate="fade-up" data-delay="100" className="group flex flex-col items-center">
                 <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider">
                   <img src="/python1.png" alt="Python scripting" className="w-full h-full object-cover" style={{backgroundColor:'#171717'}}/>
                 </div>
@@ -289,7 +289,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="group flex flex-col items-center">
+              <div data-animate="fade-up" data-delay="250" className="group flex flex-col items-center">
                 <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider" style={{backgroundColor:'#171717'}}>
                   <img src="/webhook3.png" alt="GHL n8n Zapier" className="w-full h-full object-cover" />
                 </div>
@@ -300,7 +300,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="group flex flex-col items-center">
+              <div data-animate="fade-up" data-delay="400" className="group flex flex-col items-center">
                 <div className="w-48 h-48 overflow-hidden rounded-2xl relative z-10 transition-transform duration-500 ease-out group-hover:scale-110 ring-1 ring-divider flex items-center justify-center" style={{backgroundColor:'#171717'}}>
                   <img src="claude.jpeg" alt="Claude Code AI" className="w-3/5 h-3/5 object-contain" />
                 </div>
@@ -321,7 +321,7 @@ export default function Home() {
         <div className="h-px bg-divider mb-16" />
         <div className="max-w-container mx-auto">
 
-          <div className="flex items-start gap-8 mb-12 mobile:flex-col mobile:gap-2">
+          <div data-animate="fade-up" className="flex items-start gap-8 mb-12 mobile:flex-col mobile:gap-2">
             <div className="inline-flex items-center gap-2 text-xs font-medium text-subtle tracking-[0.02em] whitespace-nowrap pt-[0.4rem]">
               <span className="w-1.5 h-1.5 bg-subtle rounded-full shrink-0" />
               Services
@@ -338,7 +338,7 @@ export default function Home() {
           <div className="grid grid-cols-3 gap-5 mobile:grid-cols-2 mobile:gap-4 xs:grid-cols-1">
 
             {/* Lead Generation Automation — orange */}
-            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt>
+            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt data-animate="scale-in" data-delay="100">
               <div className="absolute inset-0 pointer-events-none" style={{background:'radial-gradient(ellipse 75% 65% at 62% 55%, rgba(251,146,60,0.13) 0%, transparent 70%)'}} />
               <div className="absolute inset-0 pointer-events-none" style={{opacity:0.18}}>
                 <svg width="100%" height="100%" viewBox="0 0 360 240" fill="none" preserveAspectRatio="xMidYMid slice">
@@ -363,7 +363,7 @@ export default function Home() {
             </div>
 
             {/* CRM & Pipeline Automation — blue */}
-            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt>
+            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt data-animate="scale-in" data-delay="200">
               <div className="absolute inset-0 pointer-events-none" style={{background:'radial-gradient(ellipse 90% 65% at 50% 55%, rgba(96,165,250,0.12) 0%, transparent 70%)'}} />
               <div className="absolute inset-0 pointer-events-none" style={{opacity:0.18}}>
                 <svg width="100%" height="100%" viewBox="0 0 360 240" fill="none" preserveAspectRatio="xMidYMid slice">
@@ -391,7 +391,7 @@ export default function Home() {
             </div>
 
             {/* App & API Integrations — violet */}
-            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt>
+            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt data-animate="scale-in" data-delay="300">
               <div className="absolute inset-0 pointer-events-none" style={{background:'radial-gradient(ellipse 70% 70% at 50% 50%, rgba(167,139,250,0.13) 0%, transparent 70%)'}} />
               <div className="absolute inset-0 pointer-events-none" style={{opacity:0.18}}>
                 <svg width="100%" height="100%" viewBox="0 0 360 240" fill="none" preserveAspectRatio="xMidYMid slice">
@@ -428,7 +428,7 @@ export default function Home() {
           <div className="grid grid-cols-3 gap-5 mt-5 mobile:grid-cols-2 mobile:gap-4 xs:grid-cols-1">
 
             {/* Client Onboarding Systems — green */}
-            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt>
+            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt data-animate="scale-in" data-delay="100">
               <div className="absolute inset-0 pointer-events-none" style={{background:'radial-gradient(ellipse 70% 65% at 40% 55%, rgba(74,222,128,0.11) 0%, transparent 70%)'}} />
               <div className="absolute inset-0 pointer-events-none" style={{opacity:0.18}}>
                 <svg width="100%" height="100%" viewBox="0 0 360 240" fill="none" preserveAspectRatio="xMidYMid slice">
@@ -455,7 +455,7 @@ export default function Home() {
             </div>
 
             {/* AI-Powered Workflows — indigo */}
-            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt>
+            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt data-animate="scale-in" data-delay="200">
               <div className="absolute inset-0 pointer-events-none" style={{background:'radial-gradient(ellipse 80% 70% at 50% 55%, rgba(99,102,241,0.14) 0%, transparent 70%)'}} />
               <div className="absolute inset-0 pointer-events-none" style={{opacity:0.18}}>
                 <svg width="100%" height="100%" viewBox="0 0 360 240" fill="none" preserveAspectRatio="xMidYMid slice">
@@ -495,7 +495,7 @@ export default function Home() {
             </div>
 
             {/* Workflow Audits & Consulting — cyan */}
-            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt>
+            <div className="bg-surface border border-divider rounded-xl p-8 relative overflow-hidden min-h-[240px] flex flex-col justify-between" data-tilt data-animate="scale-in" data-delay="300">
               <div className="absolute inset-0 pointer-events-none" style={{background:'radial-gradient(ellipse 75% 65% at 62% 55%, rgba(34,211,238,0.11) 0%, transparent 70%)'}} />
               <div className="absolute inset-0 pointer-events-none" style={{opacity:0.18}}>
                 <svg width="100%" height="100%" viewBox="0 0 360 240" fill="none" preserveAspectRatio="xMidYMid slice">
@@ -535,7 +535,7 @@ export default function Home() {
         <div className="h-px bg-divider mb-16" />
         <div className="max-w-container mx-auto">
 
-          <div className="flex items-start gap-8 mb-16 mobile:flex-col mobile:gap-2">
+          <div data-animate="fade-up" className="flex items-start gap-8 mb-16 mobile:flex-col mobile:gap-2">
             <div className="inline-flex items-center gap-2 text-xs font-medium text-subtle tracking-[0.02em] whitespace-nowrap pt-[0.4rem]">
               <span className="w-1.5 h-1.5 bg-subtle rounded-full shrink-0" />
               How I work
@@ -545,7 +545,7 @@ export default function Home() {
 
           <div className="grid grid-cols-4 gap-6 mobile:grid-cols-2 mobile:gap-5 xs:grid-cols-1">
 
-            <div>
+            <div data-animate="fade-up" data-delay="100">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">1</div>
                 <div className="h-px flex-1 bg-divider" />
@@ -554,7 +554,7 @@ export default function Home() {
               <p className="text-[0.78rem] text-muted leading-[1.65]">We map your current workflow, identify manual bottlenecks, and clarify exactly what you want automated.</p>
             </div>
 
-            <div>
+            <div data-animate="fade-up" data-delay="200">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">2</div>
                 <div className="h-px flex-1 bg-divider" />
@@ -563,7 +563,7 @@ export default function Home() {
               <p className="text-[0.78rem] text-muted leading-[1.65]">I deliver a clear build plan with timeline and fixed price. No surprises, no scope creep — you know exactly what you&apos;re getting.</p>
             </div>
 
-            <div>
+            <div data-animate="fade-up" data-delay="300">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">3</div>
                 <div className="h-px flex-1 bg-divider" />
@@ -572,7 +572,7 @@ export default function Home() {
               <p className="text-[0.78rem] text-muted leading-[1.65]">I build the automation, test every branch and edge case, and walk you through exactly how it works.</p>
             </div>
 
-            <div>
+            <div data-animate="fade-up" data-delay="400">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">4</div>
                 <div className="flex-1" />
@@ -588,7 +588,7 @@ export default function Home() {
       {/* ── CTA ── */}
       <section id="contact" className="px-8 pt-16 pb-24">
         <div className="max-w-container mx-auto">
-          <div className="bg-[#161618] border border-divider rounded-[20px] p-16 text-center mobile:p-10">
+          <div data-animate="fade-up" className="bg-[#161618] border border-divider rounded-[20px] p-16 text-center mobile:p-10">
             <h2 className="section-heading mb-5">Ready to automate your business?</h2>
             <p className="text-subtle text-[0.9rem] leading-[1.65] max-w-[480px] mx-auto mb-8">
               Book a free 30-minute discovery call. We&apos;ll map your workflows, find what&apos;s costing you time, and I&apos;ll show you exactly what can be automated.
