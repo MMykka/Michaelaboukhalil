@@ -49,11 +49,7 @@ export default function Footer() {
 
         </div>
 
-        <div className="border-t border-divider pt-6 flex items-center justify-between flex-wrap gap-4">
-          <div className="flex items-center gap-6">
-            <a href="#" className="text-[0.7rem] text-dim no-underline hover:text-subtle transition-colors">Privacy Policy</a>
-            <a href="#" className="text-[0.7rem] text-dim no-underline hover:text-subtle transition-colors">Terms of Service</a>
-          </div>
+        <div className="border-t border-divider pt-6 flex items-center justify-end">
           <p className="text-[0.7rem] text-dim">© 2026 Michael Abou Khalil. All rights reserved.</p>
         </div>
 
