@@ -3,7 +3,15 @@ import WorkNavbar from '@/components/WorkNavbar'
 import WorkFooter from '@/components/WorkFooter'
 
 export const metadata = {
-  title: 'Lead Capture → Booked Call — Michael Abou Khalil',
+  title: 'Lead Capture to Booked Call — Michael Abou Khalil',
+  description: 'Automated pipeline that takes a lead from first touch to a confirmed calendar booking with zero manual action — built with GoHighLevel, n8n, and AI qualification.',
+  alternates: { canonical: '/work/lead-capture' },
+  openGraph: {
+    title: 'Lead Capture to Booked Call — Michael Abou Khalil',
+    description: 'Automated pipeline that takes a lead from first touch to a confirmed calendar booking with zero manual action.',
+    url: '/work/lead-capture',
+    images: [{ url: '/card-1-lead-capture.png', alt: 'Lead Capture to Booked Call automation flow' }],
+  },
 }
 
 export default function LeadCapturePage() {

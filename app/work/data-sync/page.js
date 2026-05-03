@@ -4,6 +4,14 @@ import WorkFooter from '@/components/WorkFooter'
 
 export const metadata = {
   title: 'Multi-Platform Data Sync — Michael Abou Khalil',
+  description: 'Real-time data synchronization across CRMs, spreadsheets, and tools — eliminating manual entry and ensuring accurate, centralized business data across every platform.',
+  alternates: { canonical: '/work/data-sync' },
+  openGraph: {
+    title: 'Multi-Platform Data Sync — Michael Abou Khalil',
+    description: 'Real-time sync across CRMs, spreadsheets, and tools — eliminating manual entry and keeping business data accurate everywhere.',
+    url: '/work/data-sync',
+    images: [{ url: '/card-3-data-sync.png', alt: 'Multi-Platform Data Sync automation' }],
+  },
 }
 
 export default function DataSyncPage() {

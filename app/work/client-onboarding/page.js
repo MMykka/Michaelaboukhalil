@@ -4,6 +4,14 @@ import WorkFooter from '@/components/WorkFooter'
 
 export const metadata = {
   title: 'Event Data Monetization SaaS Platform — Michael Abou Khalil',
+  description: 'SaaS platform that turns past event data into new revenue — enabling businesses to retarget attendees, generate leads, and track performance in real time.',
+  alternates: { canonical: '/work/client-onboarding' },
+  openGraph: {
+    title: 'Event Data Monetization SaaS Platform — Michael Abou Khalil',
+    description: 'Turns past event data into new revenue by enabling businesses to retarget attendees, generate leads, and track performance in real time.',
+    url: '/work/client-onboarding',
+    images: [{ url: '/card-2-saas-platform.png', alt: 'Event Data Monetization SaaS Platform' }],
+  },
 }
 
 export default function ClientOnboardingPage() {

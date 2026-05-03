@@ -6,6 +6,16 @@ import TiltCard from '@/components/TiltCard'
 
 export const metadata = {
   title: 'Michael Abou Khalil — Automation & AI Specialist',
+  description: 'Michael Abou Khalil is an automation and AI specialist building GoHighLevel, n8n, and Zapier systems that eliminate manual work, accelerate growth, and run 24/7. Available for hire.',
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'Michael Abou Khalil — Automation & AI Specialist',
+    description: 'Building GoHighLevel, n8n, and Zapier systems that eliminate manual work and run 24/7. Available for hire.',
+    url: '/',
+    images: [{ url: '/michael.png', width: 1200, height: 630, alt: 'Michael Abou Khalil' }],
+  },
 }
 
 export default function Home() {
