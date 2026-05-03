@@ -48,7 +48,7 @@ export default function Home() {
                 I turn complex workflows into clean, powerful automations.
               </h2>
               <p data-animate="fade-up" data-delay="200" className="text-subtle text-[0.9rem] leading-[1.65] mb-8 max-w-[480px]">
-                My name is Michael Abou Khalil. I&apos;m an automation and AI specialist focused on GoHighLevel, n8n, and Zapier — building systems that eliminate manual work, accelerate growth, and run 24/7 without supervision. I&apos;m also learning Claude Code to bring AI-powered agents into the workflows I build.
+                I&apos;m Michael Abou Khalil, an automation and AI specialist focused on GoHighLevel, n8n, and Zapier — building systems that eliminate manual work, accelerate growth, and run 24/7 without supervision. I also use Claude Code to integrate AI-powered agents directly into the workflows I deliver.
               </p>
               <a data-animate="fade-up" data-delay="300" href="#work" className="inline-flex items-center gap-2 bg-body text-page text-[0.875rem] font-semibold px-5 py-[10px] rounded-full hover:bg-white transition-colors no-underline whitespace-nowrap leading-none">
                 See my work
