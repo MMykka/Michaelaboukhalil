@@ -54,7 +54,7 @@ export default function Footer() {
             <a href="#" className="text-[0.7rem] text-dim no-underline hover:text-subtle transition-colors">Privacy Policy</a>
             <a href="#" className="text-[0.7rem] text-dim no-underline hover:text-subtle transition-colors">Terms of Service</a>
           </div>
-          <p className="text-[0.7rem] text-dim">© 2025 Michael Abou Khalil. All rights reserved.</p>
+          <p className="text-[0.7rem] text-dim">© 2026 Michael Abou Khalil. All rights reserved.</p>
         </div>
 
       </div>
