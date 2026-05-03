@@ -306,8 +306,8 @@ export default function Home() {
                 </div>
                 <div className="mt-6 text-center px-2">
                   <h3 className="text-[1rem] font-semibold text-body mb-1">Claude Code &amp; AI</h3>
-                  <p className="text-[0.75rem] text-muted mb-4">Currently Mastering</p>
-                  <p className="text-[0.78rem] text-subtle leading-[1.6]">I&apos;m actively building with Claude Code to create AI-powered automation agents that go beyond simple if-then logic. Early stage, but already shipping — this is where I&apos;m investing the most time right now.</p>
+                  <p className="text-[0.75rem] text-muted mb-4">AI-Powered Development</p>
+                  <p className="text-[0.78rem] text-subtle leading-[1.6]">I use Claude Code to bring AI into the automations I build — creating agents that reason, decide, and act beyond simple if-then logic. It&apos;s how I ship smarter workflows that adapt instead of just execute.</p>
                 </div>
               </div>
 
