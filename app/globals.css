@@ -5,6 +5,12 @@
 /* ── Smooth scrolling ── */
 html { scroll-behavior: smooth; }
 
+/* ── Expertise line glow sweep ── */
+@keyframes glow-sweep {
+  0%   { left: -35%; }
+  100% { left: 100%; }
+}
+
 /* ── Scroll reveal animations ── */
 [data-animate] {
   opacity: 0;

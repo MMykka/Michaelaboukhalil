@@ -284,7 +284,17 @@ export default function Home() {
 
           <div className="relative mt-12">
             {/* Connecting line — hidden on mobile */}
-            <div className="absolute top-24 left-[16.67%] right-[16.67%] h-px bg-divider mobile:hidden" />
+            <div className="absolute top-24 left-[16.67%] right-[16.67%] h-px bg-divider mobile:hidden overflow-hidden">
+              <div style={{
+                position: 'absolute',
+                top: 0,
+                height: '100%',
+                width: '35%',
+                background: 'linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.9) 50%, transparent 100%)',
+                boxShadow: '0 0 8px 3px rgba(255,255,255,0.45)',
+                animation: 'glow-sweep 2.5s linear infinite',
+              }} />
+            </div>
 
             <div className="grid grid-cols-3 gap-8 mobile:grid-cols-1 mobile:gap-12">
 
