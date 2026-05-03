@@ -284,7 +284,7 @@ export default function Home() {
 
           <div className="relative mt-12">
             {/* Connecting line — hidden on mobile */}
-            <div className="absolute top-24 left-[16.67%] right-[16.67%] h-px bg-divider mobile:hidden overflow-hidden">
+            <div data-animate="fade-up" data-delay="150" className="absolute top-24 left-[16.67%] right-[16.67%] h-px bg-divider mobile:hidden overflow-hidden">
               <div style={{
                 position: 'absolute',
                 top: 0,
@@ -292,7 +292,7 @@ export default function Home() {
                 width: '35%',
                 background: 'linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.9) 50%, transparent 100%)',
                 boxShadow: '0 0 8px 3px rgba(255,255,255,0.45)',
-                animation: 'glow-sweep 2.5s linear infinite',
+                animation: 'glow-sweep 5s linear infinite',
               }} />
             </div>
 
