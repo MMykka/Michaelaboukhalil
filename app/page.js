@@ -560,7 +560,7 @@ export default function Home() {
               <span className="w-1.5 h-1.5 bg-subtle rounded-full shrink-0" />
               How I work
             </div>
-            <h2 className="section-heading">From discovery to live automation.</h2>
+            <h2 className="section-heading">I learn fast, build clean, and document everything.</h2>
           </div>
 
           <div className="grid grid-cols-4 gap-6 mobile:grid-cols-2 mobile:gap-5 xs:grid-cols-1">
@@ -570,8 +570,8 @@ export default function Home() {
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">1</div>
                 <div className="h-px flex-1 bg-divider" />
               </div>
-              <h3 className="text-[1rem] font-semibold text-body mb-2">Discovery Call</h3>
-              <p className="text-[0.9rem] text-muted leading-[1.65]">We map your current workflow, identify manual bottlenecks, and clarify exactly what you want automated.</p>
+              <h3 className="text-[1rem] font-semibold text-body mb-2">Understand the System</h3>
+              <p className="text-[0.9rem] text-muted leading-[1.65]">I start by getting into the existing stack, tools, and workflows — understanding what&apos;s already in place and where the real friction lives before proposing anything.</p>
             </div>
 
             <div data-animate="fade-up" data-delay="200">
@@ -579,8 +579,8 @@ export default function Home() {
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">2</div>
                 <div className="h-px flex-1 bg-divider" />
               </div>
-              <h3 className="text-[1rem] font-semibold text-body mb-2">Scoping &amp; Plan</h3>
-              <p className="text-[0.9rem] text-muted leading-[1.65]">I deliver a clear build plan with timeline and fixed price. No surprises, no scope creep — you know exactly what you&apos;re getting.</p>
+              <h3 className="text-[1rem] font-semibold text-body mb-2">Align Before Building</h3>
+              <p className="text-[0.9rem] text-muted leading-[1.65]">I map the logic and get alignment with the team early. I&apos;d rather spend an extra hour scoping than rebuild a workflow that solves the wrong problem.</p>
             </div>
 
             <div data-animate="fade-up" data-delay="300">
@@ -588,8 +588,8 @@ export default function Home() {
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">3</div>
                 <div className="h-px flex-1 bg-divider" />
               </div>
-              <h3 className="text-[1rem] font-semibold text-body mb-2">Build &amp; Test</h3>
-              <p className="text-[0.9rem] text-muted leading-[1.65]">I build the automation, test every branch and edge case, and walk you through exactly how it works.</p>
+              <h3 className="text-[1rem] font-semibold text-body mb-2">Build &amp; Test Thoroughly</h3>
+              <p className="text-[0.9rem] text-muted leading-[1.65]">I build incrementally and test every branch. I don&apos;t ship brittle automations — if an edge case can break it, I find it before it reaches production.</p>
             </div>
 
             <div data-animate="fade-up" data-delay="400">
@@ -597,8 +597,8 @@ export default function Home() {
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">4</div>
                 <div className="flex-1" />
               </div>
-              <h3 className="text-[1rem] font-semibold text-body mb-2">Handoff &amp; Support</h3>
-              <p className="text-[0.9rem] text-muted leading-[1.65]">You get full documentation and optional monthly maintenance to keep everything running smoothly.</p>
+              <h3 className="text-[1rem] font-semibold text-body mb-2">Document for the Team</h3>
+              <p className="text-[0.9rem] text-muted leading-[1.65]">Everything I build is documented clearly enough for someone else to maintain, extend, or audit. I write for the long term, not just the moment I ship it.</p>
             </div>
 
           </div>
