@@ -30,7 +30,7 @@ export default function LeadCapturePage() {
             </div>
             Go Back
           </Link>
-          <p className="text-[1.1rem] text-black leading-[1.55] max-w-[360px]">
+          <p className="text-[1.2rem] text-black leading-[1.55] max-w-[360px]">
             We built a fully automated pipeline that takes a new lead from first touch to a confirmed calendar booking — without a single manual action from the team.
           </p>
         </div>
@@ -114,37 +114,37 @@ export default function LeadCapturePage() {
 
         <aside>
           <div className="bg-white border border-light-border rounded-xl overflow-hidden sticky top-20 mobile:static">
-            <div className="px-5 py-[0.85rem] text-[0.8rem] text-[#333] border-b border-[#f0f0f2]">Lead Routing &amp; Tagging</div>
-            <div className="px-5 py-[0.85rem] text-[0.8rem] text-[#333] border-b border-[#f0f0f2]">Automated Follow-Up Sequences</div>
-            <div className="px-5 py-[0.85rem] text-[0.8rem] text-[#333]">Booking &amp; Calendar Integration</div>
+            <div className="px-5 py-[0.85rem] text-[0.92rem] text-[#333] border-b border-[#f0f0f2]">Lead Routing &amp; Tagging</div>
+            <div className="px-5 py-[0.85rem] text-[0.92rem] text-[#333] border-b border-[#f0f0f2]">Automated Follow-Up Sequences</div>
+            <div className="px-5 py-[0.85rem] text-[0.92rem] text-[#333]">Booking &amp; Calendar Integration</div>
           </div>
         </aside>
 
         <main>
           <h1 className="project-name">Lead Capture<br />→ Booked Call</h1>
-          <p className="text-[0.82rem] text-[#999] mb-10">GoHighLevel Automation, 2024</p>
+          <p className="text-[0.92rem] text-[#999] mb-10">GoHighLevel Automation, 2024</p>
 
           <div className="bg-[#111] rounded-2xl px-12 py-10 mb-12">
-            <h2 className="text-[0.95rem] font-semibold text-white mb-5">Outcomes</h2>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Automated 100% of the follow-up process from form submission to confirmed booking.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Reduced time-to-first-contact from 4+ hours to under 90 seconds.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Increased booked call rate by 38% through multi-touch timed sequences.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Eliminated manual calendar coordination and back-and-forth scheduling entirely.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65]">Cut no-show rate by 40% with automated day-before and 1-hour reminders.</p>
+            <h2 className="text-[1.05rem] font-semibold text-white mb-5">Outcomes</h2>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Automated 100% of the follow-up process from form submission to confirmed booking.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Reduced time-to-first-contact from 4+ hours to under 90 seconds.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Increased booked call rate by 38% through multi-touch timed sequences.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Eliminated manual calendar coordination and back-and-forth scheduling entirely.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65]">Cut no-show rate by 40% with automated day-before and 1-hour reminders.</p>
           </div>
 
           <div className="mb-14">
-            <h2 className="text-[1rem] font-semibold text-black mb-5">Challenge</h2>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75]">The client was running paid ads and generating leads consistently, but had no automated follow-up system in place. Sales reps were manually calling and texting hours after leads submitted — by then, most had already gone cold or booked with a competitor. Every new lead was a manual task, and the team couldn&apos;t keep up at volume.</p>
+            <h2 className="text-[1.1rem] font-semibold text-black mb-5">Challenge</h2>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75]">The client was running paid ads and generating leads consistently, but had no automated follow-up system in place. Sales reps were manually calling and texting hours after leads submitted — by then, most had already gone cold or booked with a competitor. Every new lead was a manual task, and the team couldn&apos;t keep up at volume.</p>
           </div>
 
           <div className="mb-14">
-            <h2 className="text-[1rem] font-semibold text-black mb-5">Solution</h2>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Built a GoHighLevel workflow triggered instantly on every new lead form submission, firing a personalized SMS and email within 90 seconds of the lead coming in — while intent was still high.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Deployed a 5-touch follow-up sequence over 72 hours for leads who didn&apos;t respond to the first contact — mixing SMS, email, and voicemail drops at optimized intervals to maximize reply rate without being aggressive.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Integrated Google Calendar so every booking confirmation automatically blocked the rep&apos;s calendar and sent the lead a confirmation with all the details they needed — no manual coordination required.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Created automated pre-call reminders sent 24 hours and 1 hour before each scheduled call — significantly reducing no-shows without any manual effort from the sales team.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75]">Built pipeline stage triggers so leads were automatically moved through the CRM funnel at every touchpoint — zero manual CRM updates needed, giving the team full visibility with no extra work.</p>
+            <h2 className="text-[1.1rem] font-semibold text-black mb-5">Solution</h2>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Built a GoHighLevel workflow triggered instantly on every new lead form submission, firing a personalized SMS and email within 90 seconds of the lead coming in — while intent was still high.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Deployed a 5-touch follow-up sequence over 72 hours for leads who didn&apos;t respond to the first contact — mixing SMS, email, and voicemail drops at optimized intervals to maximize reply rate without being aggressive.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Integrated Google Calendar so every booking confirmation automatically blocked the rep&apos;s calendar and sent the lead a confirmation with all the details they needed — no manual coordination required.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Created automated pre-call reminders sent 24 hours and 1 hour before each scheduled call — significantly reducing no-shows without any manual effort from the sales team.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75]">Built pipeline stage triggers so leads were automatically moved through the CRM funnel at every touchpoint — zero manual CRM updates needed, giving the team full visibility with no extra work.</p>
           </div>
         </main>
 

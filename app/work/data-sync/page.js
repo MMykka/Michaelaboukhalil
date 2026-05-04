@@ -30,7 +30,7 @@ export default function DataSyncPage() {
             </div>
             Go Back
           </Link>
-          <p className="text-[1.1rem] text-black leading-[1.55] max-w-[360px]">
+          <p className="text-[1.2rem] text-black leading-[1.55] max-w-[360px]">
             We connected a fragmented tool stack into a single source of truth — syncing data across CRM, spreadsheets, and communication tools in real time, with zero manual input.
           </p>
         </div>
@@ -108,37 +108,37 @@ export default function DataSyncPage() {
 
         <aside>
           <div className="bg-white border border-light-border rounded-xl overflow-hidden sticky top-20 mobile:static">
-            <div className="px-5 py-[0.85rem] text-[0.8rem] text-[#333] border-b border-[#f0f0f2]">CRM &amp; Pipeline Sync</div>
-            <div className="px-5 py-[0.85rem] text-[0.8rem] text-[#333] border-b border-[#f0f0f2]">Spreadsheet Automation</div>
-            <div className="px-5 py-[0.85rem] text-[0.8rem] text-[#333]">API &amp; Webhook Integrations</div>
+            <div className="px-5 py-[0.85rem] text-[0.92rem] text-[#333] border-b border-[#f0f0f2]">CRM &amp; Pipeline Sync</div>
+            <div className="px-5 py-[0.85rem] text-[0.92rem] text-[#333] border-b border-[#f0f0f2]">Spreadsheet Automation</div>
+            <div className="px-5 py-[0.85rem] text-[0.92rem] text-[#333]">API &amp; Webhook Integrations</div>
           </div>
         </aside>
 
         <main>
           <h1 className="project-name">Multi-Platform<br />Data Sync</h1>
-          <p className="text-[0.82rem] text-[#999] mb-10">n8n + REST API Integration, 2024</p>
+          <p className="text-[0.92rem] text-[#999] mb-10">n8n + REST API Integration, 2024</p>
 
           <div className="bg-[#111] rounded-2xl px-12 py-10 mb-12">
-            <h2 className="text-[0.95rem] font-semibold text-white mb-5">Outcomes</h2>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Achieved real-time two-way sync across 4 platforms with zero manual data entry.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Eliminated duplicate records and data discrepancies across the entire tool stack.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Saved the team 15+ hrs/week previously spent on manual updates and reconciliation.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Built-in error handling with retry logic and alert emails on failed syncs.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65]">Full audit trail and sync health visibility maintained across all connected tools.</p>
+            <h2 className="text-[1.05rem] font-semibold text-white mb-5">Outcomes</h2>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Achieved real-time two-way sync across 4 platforms with zero manual data entry.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Eliminated duplicate records and data discrepancies across the entire tool stack.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Saved the team 15+ hrs/week previously spent on manual updates and reconciliation.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Built-in error handling with retry logic and alert emails on failed syncs.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65]">Full audit trail and sync health visibility maintained across all connected tools.</p>
           </div>
 
           <div className="mb-14">
-            <h2 className="text-[1rem] font-semibold text-black mb-5">Challenge</h2>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75]">The client&apos;s team was maintaining the same data manually across a CRM, a Google Sheet, a project management tool, and Slack. Every deal update had to be entered in four separate places. Discrepancies were constant, reconciliation was a weekly ritual, and the team had no reliable way to know which system was actually accurate at any given moment.</p>
+            <h2 className="text-[1.1rem] font-semibold text-black mb-5">Challenge</h2>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75]">The client&apos;s team was maintaining the same data manually across a CRM, a Google Sheet, a project management tool, and Slack. Every deal update had to be entered in four separate places. Discrepancies were constant, reconciliation was a weekly ritual, and the team had no reliable way to know which system was actually accurate at any given moment.</p>
           </div>
 
           <div className="mb-14">
-            <h2 className="text-[1rem] font-semibold text-black mb-5">Solution</h2>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Built an n8n workflow that listened for changes across all connected platforms via webhooks, triggering real-time sync jobs whenever data changed in any system — so every platform stayed current without anyone touching it.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Created a two-way sync between HubSpot CRM and Google Sheets — deal updates made in either direction were reflected across both within seconds, with no manual export or import required.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Automated Slack notifications on key pipeline events — new deal created, stage changed, deal closed — keeping the entire team informed without any manual reporting or status updates.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Added error-catching nodes throughout the workflow with retry logic and automatic alert emails to the admin whenever a sync failed, so nothing slipped through silently and issues were caught before they compounded.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75]">Used REST API calls to push and pull data from tools that lacked native n8n integrations, making every platform in the stack part of the same connected, automated system.</p>
+            <h2 className="text-[1.1rem] font-semibold text-black mb-5">Solution</h2>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Built an n8n workflow that listened for changes across all connected platforms via webhooks, triggering real-time sync jobs whenever data changed in any system — so every platform stayed current without anyone touching it.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Created a two-way sync between HubSpot CRM and Google Sheets — deal updates made in either direction were reflected across both within seconds, with no manual export or import required.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Automated Slack notifications on key pipeline events — new deal created, stage changed, deal closed — keeping the entire team informed without any manual reporting or status updates.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Added error-catching nodes throughout the workflow with retry logic and automatic alert emails to the admin whenever a sync failed, so nothing slipped through silently and issues were caught before they compounded.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75]">Used REST API calls to push and pull data from tools that lacked native n8n integrations, making every platform in the stack part of the same connected, automated system.</p>
           </div>
         </main>
 

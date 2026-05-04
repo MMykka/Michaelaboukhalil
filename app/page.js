@@ -57,7 +57,7 @@ export default function Home() {
               <h2 data-animate="fade-up" data-delay="100" className="section-heading mb-6 max-w-[520px]">
                 I replace manual work with systems built to run themselves.
               </h2>
-              <p data-animate="fade-up" data-delay="200" className="text-subtle text-[0.9rem] leading-[1.65] mb-8 max-w-[480px]">
+              <p data-animate="fade-up" data-delay="200" className="text-subtle text-[1rem] leading-[1.65] mb-8 max-w-[480px]">
                 I&apos;m Michael Abou Khalil, an automation and AI specialist focused on GoHighLevel, n8n, and Zapier — building systems that eliminate manual work, accelerate growth, and run 24/7 without supervision. I also use Claude Code to integrate AI-powered agents directly into the workflows I deliver.
               </p>
               <a data-animate="fade-up" data-delay="300" href="#work" className="inline-flex items-center gap-2 bg-body text-page text-[0.875rem] font-semibold px-5 py-[10px] rounded-full hover:bg-white transition-colors no-underline whitespace-nowrap leading-none">
@@ -146,8 +146,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[1rem] font-semibold text-body mb-[0.4rem]">Lead Capture to Booked Call</h3>
-                <p className="text-[0.8rem] text-muted leading-[1.55]">Automatically captures, qualifies, and nurtures leads into booked calls using AI and smart follow-ups — increasing conversion rates while eliminating manual outreach.</p>
+                <h3 className="text-[1.1rem] font-semibold text-body mb-[0.4rem]">Lead Capture to Booked Call</h3>
+                <p className="text-[0.92rem] text-muted leading-[1.55]">Automatically captures, qualifies, and nurtures leads into booked calls using AI and smart follow-ups — increasing conversion rates while eliminating manual outreach.</p>
               </div>
             </Link>
 
@@ -186,8 +186,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[1rem] font-semibold text-body mb-[0.4rem]">Event Data Monetization SaaS Platform</h3>
-                <p className="text-[0.8rem] text-muted leading-[1.55]">Turns past event data into new revenue by enabling businesses to retarget attendees, generate leads, and track performance in real time.</p>
+                <h3 className="text-[1.1rem] font-semibold text-body mb-[0.4rem]">Event Data Monetization SaaS Platform</h3>
+                <p className="text-[0.92rem] text-muted leading-[1.55]">Turns past event data into new revenue by enabling businesses to retarget attendees, generate leads, and track performance in real time.</p>
               </div>
             </Link>
 
@@ -255,8 +255,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[1rem] font-semibold text-body mb-[0.4rem]">Multi-Platform Data Sync</h3>
-                <p className="text-[0.8rem] text-muted leading-[1.55]">Syncs data across CRMs, spreadsheets, and tools in real-time — eliminating manual entry and ensuring accurate, centralized business data.</p>
+                <h3 className="text-[1.1rem] font-semibold text-body mb-[0.4rem]">Multi-Platform Data Sync</h3>
+                <p className="text-[0.92rem] text-muted leading-[1.55]">Syncs data across CRMs, spreadsheets, and tools in real-time — eliminating manual entry and ensuring accurate, centralized business data.</p>
               </div>
             </Link>
 
@@ -276,7 +276,7 @@ export default function Home() {
             </div>
             <div>
               <h2 className="section-heading mb-4">Deep in the tools. Fluent in the logic.</h2>
-              <p className="text-subtle text-[0.9rem] leading-[1.65] max-w-[580px]">
+              <p className="text-subtle text-[1rem] leading-[1.65] max-w-[580px]">
                 I don&apos;t just connect apps — I architect the logic behind them. Three platforms, one consistent approach: map the process, eliminate the waste, automate the rest.
               </p>
             </div>
@@ -303,9 +303,9 @@ export default function Home() {
                   <img src="/python1.png" alt="Python scripting" className="w-full h-full object-cover" style={{backgroundColor:'#171717'}}/>
                 </div>
                 <div className="mt-6 text-center px-2">
-                  <h3 className="text-[1rem] font-semibold text-body mb-1">Custom Automation Development</h3>
-                  <p className="text-[0.75rem] text-muted mb-4">Python Developer</p>
-                  <p className="text-[0.78rem] text-subtle leading-[1.6]">Python scripts for automating tasks, processing data, and connecting systems without native integrations — built to run reliably without supervision.</p>
+                  <h3 className="text-[1.1rem] font-semibold text-body mb-1">Custom Automation Development</h3>
+                  <p className="text-[0.85rem] text-muted mb-4">Python Developer</p>
+                  <p className="text-[0.9rem] text-subtle leading-[1.6]">Python scripts for automating tasks, processing data, and connecting systems without native integrations — built to run reliably without supervision.</p>
                 </div>
               </div>
 
@@ -314,9 +314,9 @@ export default function Home() {
                   <img src="/webhook3.png" alt="GHL n8n Zapier" className="w-full h-full object-cover" />
                 </div>
                 <div className="mt-6 text-center px-2">
-                  <h3 className="text-[1rem] font-semibold text-body mb-1">GHL, n8n &amp; Zapier</h3>
-                  <p className="text-[0.75rem] text-muted mb-4">Workflow Architect</p>
-                  <p className="text-[0.78rem] text-subtle leading-[1.6]">GoHighLevel for CRM and sales automation, n8n for complex multi-branch workflows, and Zapier for fast app-to-app connections — the right tool for each job.</p>
+                  <h3 className="text-[1.1rem] font-semibold text-body mb-1">GHL, n8n &amp; Zapier</h3>
+                  <p className="text-[0.85rem] text-muted mb-4">Workflow Architect</p>
+                  <p className="text-[0.9rem] text-subtle leading-[1.6]">GoHighLevel for CRM and sales automation, n8n for complex multi-branch workflows, and Zapier for fast app-to-app connections — the right tool for each job.</p>
                 </div>
               </div>
 
@@ -325,9 +325,9 @@ export default function Home() {
                   <img src="claude.jpeg" alt="Claude Code AI" className="w-3/5 h-3/5 object-contain" />
                 </div>
                 <div className="mt-6 text-center px-2">
-                  <h3 className="text-[1rem] font-semibold text-body mb-1">Claude Code &amp; AI</h3>
-                  <p className="text-[0.75rem] text-muted mb-4">AI-Powered Development</p>
-                  <p className="text-[0.78rem] text-subtle leading-[1.6]">I use Claude Code to bring AI into the automations I build — agents that reason and decide beyond simple if-then logic, delivering workflows that adapt instead of just execute.</p>
+                  <h3 className="text-[1.1rem] font-semibold text-body mb-1">Claude Code &amp; AI</h3>
+                  <p className="text-[0.85rem] text-muted mb-4">AI-Powered Development</p>
+                  <p className="text-[0.9rem] text-subtle leading-[1.6]">I use Claude Code to bring AI into the automations I build — agents that reason and decide beyond simple if-then logic, delivering workflows that adapt instead of just execute.</p>
                 </div>
               </div>
 
@@ -348,7 +348,7 @@ export default function Home() {
             </div>
             <div>
               <h2 className="section-heading mb-4">What I specialize in.</h2>
-              <p className="text-subtle text-[0.9rem] leading-[1.65] max-w-[560px]">
+              <p className="text-subtle text-[1rem] leading-[1.65] max-w-[560px]">
                 Whether you need a full CRM automation stack or a single workflow that saves your team 10 hours a week — I build it on whichever platform fits best.
               </p>
             </div>
@@ -373,12 +373,12 @@ export default function Home() {
                 </svg>
               </div>
               <div className="relative z-10">
-                <h3 className="text-[1.08rem] font-semibold text-body">Lead Generation Automation</h3>
+                <h3 className="text-[1.2rem] font-semibold text-body">Lead Generation Automation</h3>
               </div>
               <div className="relative z-10 flex flex-wrap gap-[0.4rem]">
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">GoHighLevel</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">n8n</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">Zapier</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">GoHighLevel</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">n8n</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">Zapier</span>
               </div>
             </div>
 
@@ -401,12 +401,12 @@ export default function Home() {
                 </svg>
               </div>
               <div className="relative z-10">
-                <h3 className="text-[1.08rem] font-semibold text-body">CRM &amp; Pipeline Automation</h3>
+                <h3 className="text-[1.2rem] font-semibold text-body">CRM &amp; Pipeline Automation</h3>
               </div>
               <div className="relative z-10 flex flex-wrap gap-[0.4rem]">
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">GoHighLevel</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">n8n</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">Zapier</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">GoHighLevel</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">n8n</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">Zapier</span>
               </div>
             </div>
 
@@ -433,13 +433,13 @@ export default function Home() {
                 </svg>
               </div>
               <div className="relative z-10">
-                <h3 className="text-[1.08rem] font-semibold text-body">App &amp; API Integrations</h3>
+                <h3 className="text-[1.2rem] font-semibold text-body">App &amp; API Integrations</h3>
               </div>
               <div className="relative z-10 flex flex-wrap gap-[0.4rem]">
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">n8n</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">Zapier</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">Make</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">REST APIs</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">n8n</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">Zapier</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">Make</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">REST APIs</span>
               </div>
             </div>
 
@@ -465,12 +465,12 @@ export default function Home() {
                 </svg>
               </div>
               <div className="relative z-10">
-                <h3 className="text-[1.08rem] font-semibold text-body">Client Onboarding Systems</h3>
+                <h3 className="text-[1.2rem] font-semibold text-body">Client Onboarding Systems</h3>
               </div>
               <div className="relative z-10 flex flex-wrap gap-[0.4rem]">
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">GoHighLevel</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">Zapier</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">n8n</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">GoHighLevel</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">Zapier</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">n8n</span>
               </div>
             </div>
 
@@ -505,12 +505,12 @@ export default function Home() {
                 </svg>
               </div>
               <div className="relative z-10">
-                <h3 className="text-[1.08rem] font-semibold text-body">AI-Powered Workflows</h3>
+                <h3 className="text-[1.2rem] font-semibold text-body">AI-Powered Workflows</h3>
               </div>
               <div className="relative z-10 flex flex-wrap gap-[0.4rem]">
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">Claude Code</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">OpenAI</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">n8n</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">Claude Code</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">OpenAI</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">n8n</span>
               </div>
             </div>
 
@@ -535,12 +535,12 @@ export default function Home() {
                 </svg>
               </div>
               <div className="relative z-10">
-                <h3 className="text-[1.08rem] font-semibold text-body">Workflow Audits &amp; Consulting</h3>
+                <h3 className="text-[1.2rem] font-semibold text-body">Workflow Audits &amp; Consulting</h3>
               </div>
               <div className="relative z-10 flex flex-wrap gap-[0.4rem]">
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">GoHighLevel</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">n8n</span>
-                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.78rem] text-subtle whitespace-nowrap">Zapier</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">GoHighLevel</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">n8n</span>
+                <span className="inline-flex items-center bg-surface2 border border-divider rounded-full px-3.5 py-[5px] text-[0.88rem] text-subtle whitespace-nowrap">Zapier</span>
               </div>
             </div>
 
@@ -570,8 +570,8 @@ export default function Home() {
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">1</div>
                 <div className="h-px flex-1 bg-divider" />
               </div>
-              <h3 className="text-[0.9rem] font-semibold text-body mb-2">Discovery Call</h3>
-              <p className="text-[0.78rem] text-muted leading-[1.65]">We map your current workflow, identify manual bottlenecks, and clarify exactly what you want automated.</p>
+              <h3 className="text-[1rem] font-semibold text-body mb-2">Discovery Call</h3>
+              <p className="text-[0.9rem] text-muted leading-[1.65]">We map your current workflow, identify manual bottlenecks, and clarify exactly what you want automated.</p>
             </div>
 
             <div data-animate="fade-up" data-delay="200">
@@ -579,8 +579,8 @@ export default function Home() {
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">2</div>
                 <div className="h-px flex-1 bg-divider" />
               </div>
-              <h3 className="text-[0.9rem] font-semibold text-body mb-2">Scoping &amp; Plan</h3>
-              <p className="text-[0.78rem] text-muted leading-[1.65]">I deliver a clear build plan with timeline and fixed price. No surprises, no scope creep — you know exactly what you&apos;re getting.</p>
+              <h3 className="text-[1rem] font-semibold text-body mb-2">Scoping &amp; Plan</h3>
+              <p className="text-[0.9rem] text-muted leading-[1.65]">I deliver a clear build plan with timeline and fixed price. No surprises, no scope creep — you know exactly what you&apos;re getting.</p>
             </div>
 
             <div data-animate="fade-up" data-delay="300">
@@ -588,8 +588,8 @@ export default function Home() {
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">3</div>
                 <div className="h-px flex-1 bg-divider" />
               </div>
-              <h3 className="text-[0.9rem] font-semibold text-body mb-2">Build &amp; Test</h3>
-              <p className="text-[0.78rem] text-muted leading-[1.65]">I build the automation, test every branch and edge case, and walk you through exactly how it works.</p>
+              <h3 className="text-[1rem] font-semibold text-body mb-2">Build &amp; Test</h3>
+              <p className="text-[0.9rem] text-muted leading-[1.65]">I build the automation, test every branch and edge case, and walk you through exactly how it works.</p>
             </div>
 
             <div data-animate="fade-up" data-delay="400">
@@ -597,8 +597,8 @@ export default function Home() {
                 <div className="w-7 h-7 bg-surface border border-divider rounded-full flex items-center justify-center text-[0.7rem] text-muted shrink-0">4</div>
                 <div className="flex-1" />
               </div>
-              <h3 className="text-[0.9rem] font-semibold text-body mb-2">Handoff &amp; Support</h3>
-              <p className="text-[0.78rem] text-muted leading-[1.65]">You get full documentation and optional monthly maintenance to keep everything running smoothly.</p>
+              <h3 className="text-[1rem] font-semibold text-body mb-2">Handoff &amp; Support</h3>
+              <p className="text-[0.9rem] text-muted leading-[1.65]">You get full documentation and optional monthly maintenance to keep everything running smoothly.</p>
             </div>
 
           </div>
@@ -610,7 +610,7 @@ export default function Home() {
         <div className="max-w-container mx-auto">
           <div data-animate="fade-up" className="bg-[#161618] border border-divider rounded-[20px] p-16 text-center mobile:p-10">
             <h2 className="section-heading mb-5">Open to new opportunities.</h2>
-            <p className="text-subtle text-[0.9rem] leading-[1.65] max-w-[480px] mx-auto mb-8">
+            <p className="text-subtle text-[1rem] leading-[1.65] max-w-[480px] mx-auto mb-8">
               I&apos;m actively looking for a role where I can bring automation and AI expertise to a great team. If that sounds like a fit, I&apos;d love to connect.
             </p>
             <a href="mailto:michaelaboukhal@gmail.com" className="inline-flex items-center gap-2 bg-body text-page text-[0.9rem] font-semibold px-6 py-3 rounded-full hover:bg-white transition-colors no-underline whitespace-nowrap leading-none">

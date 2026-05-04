@@ -30,7 +30,7 @@ export default function ClientOnboardingPage() {
             </div>
             Go Back
           </Link>
-          <p className="text-[1.1rem] text-black leading-[1.55] max-w-[360px]">
+          <p className="text-[1.2rem] text-black leading-[1.55] max-w-[360px]">
             We built a SaaS platform that turns stale event attendee data into an active revenue channel — enabling businesses to retarget, convert, and track performance in real time.
           </p>
         </div>
@@ -82,37 +82,37 @@ export default function ClientOnboardingPage() {
 
         <aside>
           <div className="bg-white border border-light-border rounded-xl overflow-hidden sticky top-20 mobile:static">
-            <div className="px-5 py-[0.85rem] text-[0.8rem] text-[#333] border-b border-[#f0f0f2]">Event Retargeting Engine</div>
-            <div className="px-5 py-[0.85rem] text-[0.8rem] text-[#333] border-b border-[#f0f0f2]">Lead Generation &amp; Qualification</div>
-            <div className="px-5 py-[0.85rem] text-[0.8rem] text-[#333]">Real-Time Performance Dashboard</div>
+            <div className="px-5 py-[0.85rem] text-[0.92rem] text-[#333] border-b border-[#f0f0f2]">Event Retargeting Engine</div>
+            <div className="px-5 py-[0.85rem] text-[0.92rem] text-[#333] border-b border-[#f0f0f2]">Lead Generation &amp; Qualification</div>
+            <div className="px-5 py-[0.85rem] text-[0.92rem] text-[#333]">Real-Time Performance Dashboard</div>
           </div>
         </aside>
 
         <main>
           <h1 className="project-name">Event Data<br />Monetization</h1>
-          <p className="text-[0.82rem] text-[#999] mb-10">SaaS Platform, n8n + GoHighLevel, 2024</p>
+          <p className="text-[0.92rem] text-[#999] mb-10">SaaS Platform, n8n + GoHighLevel, 2024</p>
 
           <div className="bg-[#111] rounded-2xl px-12 py-10 mb-12">
-            <h2 className="text-[0.95rem] font-semibold text-white mb-5">Outcomes</h2>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Generated $12.4K/month in new revenue from attendee data that was previously sitting unused.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Converted 23% of past event attendees into qualified leads within the first 30 days.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Processed 2,400+ attendee records across 14 events with zero manual data work.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65] mb-4">Reduced cost-per-lead by 60% compared to running fresh paid ad campaigns.</p>
-            <p className="text-[0.82rem] text-[#bbb] leading-[1.65]">Delivered a real-time dashboard giving clients full visibility into retargeting performance, pipeline status, and revenue attribution.</p>
+            <h2 className="text-[1.05rem] font-semibold text-white mb-5">Outcomes</h2>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Generated $12.4K/month in new revenue from attendee data that was previously sitting unused.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Converted 23% of past event attendees into qualified leads within the first 30 days.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Processed 2,400+ attendee records across 14 events with zero manual data work.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65] mb-4">Reduced cost-per-lead by 60% compared to running fresh paid ad campaigns.</p>
+            <p className="text-[0.95rem] text-[#bbb] leading-[1.65]">Delivered a real-time dashboard giving clients full visibility into retargeting performance, pipeline status, and revenue attribution.</p>
           </div>
 
           <div className="mb-14">
-            <h2 className="text-[1rem] font-semibold text-black mb-5">Challenge</h2>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75]">Event organizers and B2B businesses were sitting on thousands of attendee records after every conference, expo, or webinar — and doing nothing with them. The data was collected, exported to a spreadsheet, and forgotten. There was no system to retarget those attendees, no way to identify which ones were high-intent buyers, and no infrastructure to turn that list into actual revenue. Every event was a missed monetization opportunity.</p>
+            <h2 className="text-[1.1rem] font-semibold text-black mb-5">Challenge</h2>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75]">Event organizers and B2B businesses were sitting on thousands of attendee records after every conference, expo, or webinar — and doing nothing with them. The data was collected, exported to a spreadsheet, and forgotten. There was no system to retarget those attendees, no way to identify which ones were high-intent buyers, and no infrastructure to turn that list into actual revenue. Every event was a missed monetization opportunity.</p>
           </div>
 
           <div className="mb-14">
-            <h2 className="text-[1rem] font-semibold text-black mb-5">Solution</h2>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Built a SaaS platform that ingests raw event attendee data — from spreadsheets, registration tools, or direct API exports — and immediately begins enriching and segmenting each contact based on job title, company size, engagement signals, and event type.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Deployed an automated retargeting engine via GoHighLevel that launches personalized multi-touch sequences to each segment — email, SMS, and voicemail drops — timed and tailored based on how recently and how often the attendee engaged with previous events.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Integrated an AI qualification layer using n8n that scores each lead as contacts reply or click through — automatically routing hot leads to a booking flow and nurturing warm leads with follow-up content, without any manual review required.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75] mb-[0.85rem]">Connected the entire pipeline to a real-time performance dashboard showing attendees processed, sequences active, leads generated, calls booked, and revenue attributed — giving clients full visibility into ROI from each event&apos;s data.</p>
-            <p className="text-[0.82rem] text-[#333] leading-[1.75]">Built the platform as a multi-tenant SaaS product so multiple event clients could run their own retargeting campaigns simultaneously — each with isolated data, their own branding in outreach, and independent reporting.</p>
+            <h2 className="text-[1.1rem] font-semibold text-black mb-5">Solution</h2>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Built a SaaS platform that ingests raw event attendee data — from spreadsheets, registration tools, or direct API exports — and immediately begins enriching and segmenting each contact based on job title, company size, engagement signals, and event type.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Deployed an automated retargeting engine via GoHighLevel that launches personalized multi-touch sequences to each segment — email, SMS, and voicemail drops — timed and tailored based on how recently and how often the attendee engaged with previous events.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Integrated an AI qualification layer using n8n that scores each lead as contacts reply or click through — automatically routing hot leads to a booking flow and nurturing warm leads with follow-up content, without any manual review required.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75] mb-[0.85rem]">Connected the entire pipeline to a real-time performance dashboard showing attendees processed, sequences active, leads generated, calls booked, and revenue attributed — giving clients full visibility into ROI from each event&apos;s data.</p>
+            <p className="text-[0.95rem] text-[#333] leading-[1.75]">Built the platform as a multi-tenant SaaS product so multiple event clients could run their own retargeting campaigns simultaneously — each with isolated data, their own branding in outreach, and independent reporting.</p>
           </div>
         </main>
 

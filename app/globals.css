@@ -61,7 +61,7 @@ html { scroll-behavior: smooth; }
   color: #f0f0f2;
 }
 .section-heading {
-  font-size: clamp(1.8rem, 3.5vw, 3.25rem);
+  font-size: clamp(2rem, 3.8vw, 3.5rem);
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.025em;
@@ -78,7 +78,7 @@ html { scroll-behavior: smooth; }
 
 @media (max-width: 900px) {
   .hero-heading   { font-size: clamp(2rem, 9vw, 4rem) !important; overflow-wrap: break-word; }
-  .section-heading { font-size: clamp(1.35rem, 5.5vw, 3.25rem) !important; overflow-wrap: break-word; }
+  .section-heading { font-size: clamp(1.5rem, 6vw, 3.5rem) !important; overflow-wrap: break-word; }
 }
 
 /* ── Marquee ── */
