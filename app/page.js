@@ -101,10 +101,13 @@ export default function Home() {
                 {/* Project number */}
                 <div className="absolute top-4 left-5 text-[0.6rem] font-mono text-dim tracking-widest">01</div>
                 {/* Arrow */}
-                <div className="card-arrow absolute top-3 right-3 pointer-events-none w-9 h-9 rounded-full flex items-center justify-center" style={{background:'rgba(255,255,255,0.12)', backdropFilter:'blur(6px)', border:'1px solid rgba(255,255,255,0.18)'}}>
-                  <svg width="18" height="18" viewBox="0 0 22 22" fill="none">
-                    <path d="M5 17L17 5M17 5H7M17 5V15" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
+                <div className="card-arrow absolute top-3 right-3 pointer-events-none h-9 rounded-full flex items-center overflow-hidden transition-[width] duration-300 ease-in-out w-9 group-hover:w-[116px] mobile:w-[116px]" style={{background:'rgba(255,255,255,0.12)', backdropFilter:'blur(6px)', border:'1px solid rgba(255,255,255,0.18)'}}>
+                  <span className="text-white text-[0.7rem] font-semibold whitespace-nowrap pl-[13px] pr-1 opacity-0 group-hover:opacity-100 mobile:opacity-100 transition-opacity duration-150 delay-100">More Info</span>
+                  <div className="shrink-0 w-9 h-9 flex items-center justify-center">
+                    <svg width="18" height="18" viewBox="0 0 22 22" fill="none">
+                      <path d="M5 17L17 5M17 5H7M17 5V15" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
                 </div>
                 {/* Flow diagram */}
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -166,10 +169,13 @@ export default function Home() {
                 {/* Project number */}
                 <div className="absolute top-4 left-5 text-[0.6rem] font-mono text-dim tracking-widest">02</div>
                 {/* Arrow */}
-                <div className="card-arrow absolute top-3 right-3 pointer-events-none w-9 h-9 rounded-full flex items-center justify-center" style={{background:'rgba(255,255,255,0.12)', backdropFilter:'blur(6px)', border:'1px solid rgba(255,255,255,0.18)'}}>
-                  <svg width="18" height="18" viewBox="0 0 22 22" fill="none">
-                    <path d="M5 17L17 5M17 5H7M17 5V15" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
+                <div className="card-arrow absolute top-3 right-3 pointer-events-none h-9 rounded-full flex items-center overflow-hidden transition-[width] duration-300 ease-in-out w-9 group-hover:w-[116px] mobile:w-[116px]" style={{background:'rgba(255,255,255,0.12)', backdropFilter:'blur(6px)', border:'1px solid rgba(255,255,255,0.18)'}}>
+                  <span className="text-white text-[0.7rem] font-semibold whitespace-nowrap pl-[13px] pr-1 opacity-0 group-hover:opacity-100 mobile:opacity-100 transition-opacity duration-150 delay-100">More Info</span>
+                  <div className="shrink-0 w-9 h-9 flex items-center justify-center">
+                    <svg width="18" height="18" viewBox="0 0 22 22" fill="none">
+                      <path d="M5 17L17 5M17 5H7M17 5V15" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
                 </div>
                 {/* Mini dashboard */}
                 <div className="absolute inset-0 flex items-center justify-center p-8">
@@ -212,10 +218,13 @@ export default function Home() {
                 {/* Project number */}
                 <div className="absolute top-4 left-5 text-[0.6rem] font-mono text-dim tracking-widest">03</div>
                 {/* Arrow */}
-                <div className="card-arrow absolute top-3 right-3 pointer-events-none w-9 h-9 rounded-full flex items-center justify-center" style={{background:'rgba(255,255,255,0.12)', backdropFilter:'blur(6px)', border:'1px solid rgba(255,255,255,0.18)'}}>
-                  <svg width="18" height="18" viewBox="0 0 22 22" fill="none">
-                    <path d="M5 17L17 5M17 5H7M17 5V15" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
+                <div className="card-arrow absolute top-3 right-3 pointer-events-none h-9 rounded-full flex items-center overflow-hidden transition-[width] duration-300 ease-in-out w-9 group-hover:w-[116px] mobile:w-[116px]" style={{background:'rgba(255,255,255,0.12)', backdropFilter:'blur(6px)', border:'1px solid rgba(255,255,255,0.18)'}}>
+                  <span className="text-white text-[0.7rem] font-semibold whitespace-nowrap pl-[13px] pr-1 opacity-0 group-hover:opacity-100 mobile:opacity-100 transition-opacity duration-150 delay-100">More Info</span>
+                  <div className="shrink-0 w-9 h-9 flex items-center justify-center">
+                    <svg width="18" height="18" viewBox="0 0 22 22" fill="none">
+                      <path d="M5 17L17 5M17 5H7M17 5V15" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
                 </div>
                 {/* Hub and spoke */}
                 <div className="absolute inset-0 flex items-center justify-center gap-3">
