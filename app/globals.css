@@ -113,11 +113,3 @@ html { scroll-behavior: smooth; }
   animation: marquee-scroll 28s linear infinite;
 }
 
-/* ── Card arrow float ── */
-@keyframes arrow-float {
-  0%, 100% { transform: translateY(0); }
-  50%       { transform: translateY(-7px); }
-}
-.group:hover .card-arrow {
-  animation: arrow-float 0.9s ease-in-out infinite;
-}
