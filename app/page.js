@@ -146,7 +146,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[1.1rem] font-semibold text-body mb-[0.4rem]">Lead Capture to Booked Call</h3>
+                <div className="flex items-start justify-between gap-3 mb-[0.4rem]">
+                  <h3 className="text-[1.1rem] font-semibold text-body">Lead Capture to Booked Call</h3>
+                  <svg className="shrink-0 mt-[3px] text-dim group-hover:text-subtle group-hover:translate-x-0.5 transition-all duration-200" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <p className="text-[0.92rem] text-muted leading-[1.55]">Automatically captures, qualifies, and nurtures leads into booked calls using AI and smart follow-ups — increasing conversion rates while eliminating manual outreach.</p>
               </div>
             </Link>
@@ -186,7 +191,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[1.1rem] font-semibold text-body mb-[0.4rem]">Event Data Monetization SaaS Platform</h3>
+                <div className="flex items-start justify-between gap-3 mb-[0.4rem]">
+                  <h3 className="text-[1.1rem] font-semibold text-body">Event Data Monetization SaaS Platform</h3>
+                  <svg className="shrink-0 mt-[3px] text-dim group-hover:text-subtle group-hover:translate-x-0.5 transition-all duration-200" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <p className="text-[0.92rem] text-muted leading-[1.55]">Turns past event data into new revenue by enabling businesses to retarget attendees, generate leads, and track performance in real time.</p>
               </div>
             </Link>
@@ -255,7 +265,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[1.1rem] font-semibold text-body mb-[0.4rem]">Multi-Platform Data Sync</h3>
+                <div className="flex items-start justify-between gap-3 mb-[0.4rem]">
+                  <h3 className="text-[1.1rem] font-semibold text-body">Multi-Platform Data Sync</h3>
+                  <svg className="shrink-0 mt-[3px] text-dim group-hover:text-subtle group-hover:translate-x-0.5 transition-all duration-200" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <p className="text-[0.92rem] text-muted leading-[1.55]">Syncs data across CRMs, spreadsheets, and tools in real-time — eliminating manual entry and ensuring accurate, centralized business data.</p>
               </div>
             </Link>
