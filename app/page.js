@@ -99,7 +99,13 @@ export default function Home() {
                 {/* Vignette */}
                 <div className="absolute inset-0" style={{background:'radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, #13131a 100%)'}} />
                 {/* Project number */}
-                <div className="absolute top-4 right-5 text-[0.6rem] font-mono text-dim tracking-widest">01</div>
+                <div className="absolute top-4 left-5 text-[0.6rem] font-mono text-dim tracking-widest">01</div>
+                {/* Arrow */}
+                <div className="card-arrow absolute top-3 right-3 pointer-events-none w-9 h-9 rounded-full flex items-center justify-center" style={{background:'rgba(255,255,255,0.12)', backdropFilter:'blur(6px)', border:'1px solid rgba(255,255,255,0.18)'}}>
+                  <svg width="18" height="18" viewBox="0 0 22 22" fill="none">
+                    <path d="M5 17L17 5M17 5H7M17 5V15" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 {/* Flow diagram */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="flex items-center gap-2.5">
@@ -146,12 +152,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <div className="flex items-start justify-between gap-3 mb-[0.4rem]">
-                  <h3 className="text-[1.1rem] font-semibold text-body">Lead Capture to Booked Call</h3>
-                  <svg className="shrink-0 mt-[3px] text-dim group-hover:text-subtle group-hover:translate-x-0.5 transition-all duration-200" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
+                <h3 className="text-[1.1rem] font-semibold text-body mb-[0.4rem]">Lead Capture to Booked Call</h3>
                 <p className="text-[0.92rem] text-muted leading-[1.55]">Automatically captures, qualifies, and nurtures leads into booked calls using AI and smart follow-ups — increasing conversion rates while eliminating manual outreach.</p>
               </div>
             </Link>
@@ -163,7 +164,13 @@ export default function Home() {
                 <div className="absolute inset-0" style={{backgroundImage:'linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px)',backgroundSize:'26px 26px'}} />
                 <div className="absolute inset-0" style={{background:'radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, #13131a 100%)'}} />
                 {/* Project number */}
-                <div className="absolute top-4 right-5 text-[0.6rem] font-mono text-dim tracking-widest">02</div>
+                <div className="absolute top-4 left-5 text-[0.6rem] font-mono text-dim tracking-widest">02</div>
+                {/* Arrow */}
+                <div className="card-arrow absolute top-3 right-3 pointer-events-none w-9 h-9 rounded-full flex items-center justify-center" style={{background:'rgba(255,255,255,0.12)', backdropFilter:'blur(6px)', border:'1px solid rgba(255,255,255,0.18)'}}>
+                  <svg width="18" height="18" viewBox="0 0 22 22" fill="none">
+                    <path d="M5 17L17 5M17 5H7M17 5V15" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 {/* Mini dashboard */}
                 <div className="absolute inset-0 flex items-center justify-center p-8">
                   <div className="grid grid-cols-2 gap-2 w-full max-w-[192px]">
@@ -191,12 +198,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <div className="flex items-start justify-between gap-3 mb-[0.4rem]">
-                  <h3 className="text-[1.1rem] font-semibold text-body">Event Data Monetization SaaS Platform</h3>
-                  <svg className="shrink-0 mt-[3px] text-dim group-hover:text-subtle group-hover:translate-x-0.5 transition-all duration-200" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
+                <h3 className="text-[1.1rem] font-semibold text-body mb-[0.4rem]">Event Data Monetization SaaS Platform</h3>
                 <p className="text-[0.92rem] text-muted leading-[1.55]">Turns past event data into new revenue by enabling businesses to retarget attendees, generate leads, and track performance in real time.</p>
               </div>
             </Link>
@@ -208,7 +210,13 @@ export default function Home() {
                 <div className="absolute inset-0" style={{backgroundImage:'radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px)',backgroundSize:'20px 20px'}} />
                 <div className="absolute inset-0" style={{background:'radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, #13131a 100%)'}} />
                 {/* Project number */}
-                <div className="absolute top-4 right-5 text-[0.6rem] font-mono text-dim tracking-widest">03</div>
+                <div className="absolute top-4 left-5 text-[0.6rem] font-mono text-dim tracking-widest">03</div>
+                {/* Arrow */}
+                <div className="card-arrow absolute top-3 right-3 pointer-events-none w-9 h-9 rounded-full flex items-center justify-center" style={{background:'rgba(255,255,255,0.12)', backdropFilter:'blur(6px)', border:'1px solid rgba(255,255,255,0.18)'}}>
+                  <svg width="18" height="18" viewBox="0 0 22 22" fill="none">
+                    <path d="M5 17L17 5M17 5H7M17 5V15" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 {/* Hub and spoke */}
                 <div className="absolute inset-0 flex items-center justify-center gap-3">
                   {/* Left platforms */}
@@ -265,12 +273,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <div className="flex items-start justify-between gap-3 mb-[0.4rem]">
-                  <h3 className="text-[1.1rem] font-semibold text-body">Multi-Platform Data Sync</h3>
-                  <svg className="shrink-0 mt-[3px] text-dim group-hover:text-subtle group-hover:translate-x-0.5 transition-all duration-200" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
+                <h3 className="text-[1.1rem] font-semibold text-body mb-[0.4rem]">Multi-Platform Data Sync</h3>
                 <p className="text-[0.92rem] text-muted leading-[1.55]">Syncs data across CRMs, spreadsheets, and tools in real-time — eliminating manual entry and ensuring accurate, centralized business data.</p>
               </div>
             </Link>
